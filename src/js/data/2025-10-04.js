@@ -877,7 +877,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Isaki Riona",
-    img: "riona.webp",
+    img: "riona.png",
     opts: {
       branch: ["devis"],
       girl: true
@@ -885,7 +885,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Koganei Niko",
-    img: "niko.webp",
+    img: "niko.png",
     opts: {
       branch: ["devis"],
       girl: true
@@ -893,7 +893,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mizumiya Su",
-    img: "su.webp",
+    img: "su.png",
     opts: {
       branch: ["devis"],
       girl: true
@@ -901,7 +901,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rindo Chihaya",
-    img: "chihaya.webp",
+    img: "chihaya.png",
     opts: {
       branch: ["devis"],
       girl: true
@@ -909,7 +909,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kikirara Vivi",
-    img: "vivi.webp",
+    img: "vivi.png",
     opts: {
       branch: ["devis"],
       girl: true
