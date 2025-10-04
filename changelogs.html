@@ -20,33 +20,91 @@
     -->
   </head>
 
-  <body>
-    <div class="container">
-      <div class="info">
-        <p>(Better) Hololive Member Sorter</p>
+<body>
+  <div class="container">
+    <div class="info">
+      <p>(Better) Hololive Member Sorter</p>
+      <br>
+      <p><strong>Changelogs</strong></p>
+<br>
+      <section class="changelog" aria-labelledby="changelog-title">
+
+        <article class="log-entry" id="log-2025-10-04">
+          <time datetime="2025-10-04"><strong>4 October 2025</strong></time>
+          <p>
+            <span class="badge added">Debut</span>
+            FLOW GLOW
+          </p>
+          <p>
+            <span class="badge removed">Terminated</span>
+           Hizaki Gamma
+          </p>
+          <p>
+            <span class="badge removed">Graduated</span>
+            A-chan, Ceres Fauna, Sakamata Chloe, Murasaki Shion, Nanashi Mumei, Gawr Gura, Harusaki Nodoka, Hiodoshi Ao
+          </p>
+
+        </article>
+
         <br>
-        <p>Changelogs:</p>
-        <div class="info">
-          <p>(Better) Hololive Member Sorter</p><br>
-          <p>Changelogs:</p>
-          <p>4 October 2025 - A-chan, Gamma, Fauna, Chloe, Shion, Mumei, Gura, Nodoka, Ao graduations. FLOW GLOW debut</p>
-          <br>
-          <p>31 August 2024 - Minato Aqua graduation.</p>
-          <br>
-          <p>22 June 2024 - hololive EN Justice debut.</p>
-          <br>
-          <p>19 January 2024 - Yozora Mel termination.</p>
-          <br>
-          <p>9 December 2023 - ARMIS debut, new site, fixing filters.</p>
-          <br>
-          <p>9 September 2023 - ReGLOSS debut.</p>
-          <p>1 September 2023 - Noir Vesper and Magni Dezmond graduation.</p>
-          <br>
-          <p>30 July 2023 - Forked and started the project.</p>
-          <br>
-          <a href="/">Go back</a>
-          <br><br>
-          <a onclick="myFunction()">Toggle Dark Mode</a>
-      </div>
+
+        <article class="log-entry" id="log-2024-08-31">
+          <time datetime="2024-08-31"><strong>31 August 2024</strong></time>
+          <p><span class="badge removed">Graduated</span> Minato Aqua</p>
+        </article>
+
+        <br>
+
+        <article class="log-entry" id="log-2024-06-22">
+          <time datetime="2024-06-22"><strong>22 June 2024</strong></time>
+          <p><span class="badge added">Debut</span> hololive EN Justice</p>
+        </article>
+
+        <br>
+
+        <article class="log-entry" id="log-2024-01-19">
+          <time datetime="2024-01-19"><strong>19 January 2024</strong></time>
+          <p><span class="badge removed">Terminated</span> Yozora Mel</p>
+        </article>
+
+        <br>
+
+        <article class="log-entry" id="log-2023-12-09">
+          <time datetime="2023-12-09"><strong>9 December 2023</strong></time>
+          <p><span class="badge added">Debut</span> ARMIS</p>
+          <p><span class="badge changed">Changed</span> New site; fixed filters</p>
+        </article>
+
+        <br>
+
+        <article class="log-entry" id="log-2023-09-09">
+          <time datetime="2023-09-09"><strong>9 September 2023</strong></time>
+          <p><span class="badge added">Debut</span> ReGLOSS</p>
+        </article>
+
+        <article class="log-entry" id="log-2023-09-01">
+          <time datetime="2023-09-01"><strong>1 September 2023</strong></time>
+          <p><span class="badge removed">Graduated</span> Noir Vesper, Magni Dezmond</p>
+        </article>
+
+        <br>
+
+        <article class="log-entry" id="log-2023-07-30">
+          <time datetime="2023-07-30"><strong>30 July 2023</strong></time>
+          <p><span class="badge added">Started</span> Forked and started the project</p>
+        </article>
+
+        <br>
+        <p><a href="/">Go back</a></p>
+        <p><button type="button" id="darkToggle" style="background:none;border:none;color:inherit;text-decoration:underline;cursor:pointer">Toggle Dark Mode</button></p>
+      </section>
     </div>
-  </body>
+  </div>
+
+  <!-- Scripts (defer so they don’t block rendering) -->
+  <script src="src/js/html2canvas.min.js" defer></script>
+  <script src="src/js/lz-string.min.js" defer></script>
+  <script src="src/js/seedrandom.min.js" defer></script>
+  <script src="src/js/main.js" defer></script>
+  <script src="src/js/darkmode.js" defer></script>
+</body>
