@@ -757,7 +757,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       branch: ["st"],
       boy: true,
-      retired: true4
+      retired: true
     }
   },
   {
