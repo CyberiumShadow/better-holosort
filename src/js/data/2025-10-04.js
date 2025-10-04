@@ -559,8 +559,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Nerrisa Ravencroft",
-    img: "nerrisa.webp",
+    name: "Nerissa Ravencroft",
+    img: "nerissa.webp",
     opts: {
       branch: ["en"],
       girl: true
