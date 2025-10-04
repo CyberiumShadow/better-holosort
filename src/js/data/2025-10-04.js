@@ -319,7 +319,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "La+ Darkness",
+    name: "La+ Darknesss",
     img: "laplus.webp",
     opts: {
       branch: ["jp"],
